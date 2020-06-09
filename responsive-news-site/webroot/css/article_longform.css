@@ -1,11 +1,15 @@
 .article_longform {
   padding: 0;
 }
-  @media ( max-width : 780px) {
-    .section_container--article {
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
-      }
-     }
+
+@media (max-width: 768px) {
+  .article_longform {
+    display: grid;
+     margin-right: 70px;
+     padding-left: 50px;
+
   }
-}
+
+  }
+
+

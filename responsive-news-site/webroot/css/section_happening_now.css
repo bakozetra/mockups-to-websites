@@ -14,3 +14,6 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
+#section_happening_now > header +.article_simple + article_simple + article_simple + article_simple +article_simple{
+  display: none;
+}

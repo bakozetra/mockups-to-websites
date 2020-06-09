@@ -1,3 +1,31 @@
 #section_trending article {
   background-color: #fff;
 }
+#section_trending > article:nth-of-type(2) ~ article {
+  display: none;
+}
+#section_trending > article:nth-of-type(2) {
+  display: grid;
+
+}
+
+@media (max-width : 768px) {
+  #section_trending{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2.5rem;
+  }
+  #section_trending > header{
+    grid-column: 1/3;
+  }
+  #section_trending > article{
+    padding : 0;
+  }
+  #section_trending > article > header{
+    padding-inline-start: 2rem;
+  }
+ #section_trending > article p {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+ }
+}
