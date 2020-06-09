@@ -14,6 +14,24 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
-#section_happening_now > header +.article_simple + article_simple + article_simple + article_simple +article_simple{
+
+#section_happening_now :nth-of-type(4)~article {
   display: none;
+}
+
+@media ( max-width: 768px) {
+  #section_happening_now {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+  #section_happening_now > header {
+    grid-column: 1/3;
+  }
+  .article_card {
+    grid-column: 1/3;
+  }
+  .article_simple > .article_header + .article_image >img {
+    height: calc((100vw - 3rem) / 2);
+  }
 }
