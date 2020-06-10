@@ -58,3 +58,26 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+@media (max-width : 768px) {
+  .link_primary {
+    display: grid;
+     grid-column:0;
+  }
+  .links_site {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column: 5/3;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .links_social {
+    grid-column: 4/4;
+  }
+  .form_subscribe {
+    grid-column: 1/3;
+  }
+}
+
+
