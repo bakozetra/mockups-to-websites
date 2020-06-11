@@ -64,5 +64,9 @@
    border-radius: 6px 6px 0 0;
    height:calc(50vw - 3rem);;
   }
+  .article_footer {
+     grid-template-columns: none;
+     margin-bottom: 0;
+  }
 
  }

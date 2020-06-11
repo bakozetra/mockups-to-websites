@@ -9,7 +9,12 @@
      padding-left: 50px;
 
   }
-
+  .article_longform :nth-of-type(1) {
+    margin-bottom: 0;
+  }
+  .section_more_news > header +:nth-of-type(1) {
+    margin-bottom: 0;
+  }
   }
 
 
