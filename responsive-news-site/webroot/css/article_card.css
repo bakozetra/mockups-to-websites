@@ -44,3 +44,8 @@
 .article_card .publication_details time {
   background-image: url(../images/icons/icon_clock_white.svg);
 }
+@media ( max-width : 768px){
+  .article_card > .article_header > .article_title + .category {
+    padding-bottom: 4rem;
+  }
+}

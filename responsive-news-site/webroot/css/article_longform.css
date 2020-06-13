@@ -4,7 +4,6 @@
 
 @media (max-width: 768px) {
   .article_longform {
-    display: grid;
      margin-right: 70px;
      padding-left: 50px;
 
