@@ -22,3 +22,16 @@
 #section_featured footer {
   display: none;
 }
+@media(max-width : 1440px) {
+  #section_featured  {
+    float: left;
+    max-width: 840px;
+  }
+
+#section_featured > header + .article_card {
+ padding-top: 165px;
+}
+.article_card > .article_header + picture + div > p + p {
+  padding-bottom: 175px;
+}
+}

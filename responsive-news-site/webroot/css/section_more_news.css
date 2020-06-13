@@ -35,11 +35,23 @@
    grid-column:1/3 ;
   }
 
-.article_lonform{
+.article_longform{
  column-gap: 40px;
 }
-#section_more_news:nth-of-type(2) .article_lonform  > .article_header > .article_description > p {
+#section_more_news:nth-of-type(2) .article_longform  > .article_header > .article_description > p {
   margin-top: 0;
 }
+}
+@media (max-width : 1440px) {
+   #section_more_news {
+    display: grid;
+    padding-left: 50px;
+   }
+   #section_more_news .article_longform {
+     margin: 0;
+     padding-top: 1rem;
+
+   }
+
 }
 

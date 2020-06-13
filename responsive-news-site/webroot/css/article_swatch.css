@@ -62,11 +62,16 @@
   }
   .article_swatch > .article_header + .article_image > img {
    border-radius: 6px 6px 0 0;
-   height:calc(50vw - 3rem);;
+   height:calc(50vw - 3rem);
   }
   .article_footer {
      grid-template-columns: none;
-     margin-bottom: 0;
   }
 
+ }
+
+ @media (max-width : 1440px) {
+  .article_swatch > .article_header + .article_image > img {
+    /*height:calc(50vw - 30rem);*/
+  }
  }
