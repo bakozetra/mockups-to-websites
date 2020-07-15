@@ -1,48 +1,48 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.25;
+    font-family: 'roboto';
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 body {
-  margin: 0;
-  background-color: #F6F8F9;
-  color: #202124;
+    margin: 0;
+    background-color: #F6F8F9;
+    color: #202124;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 abbr {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-body > header > :first-child,
-body > nav > :first-child,
-main > :first-child,
-body > footer > :first-child {
-  margin-block-start: 0;
+body>header> :first-child,
+body>nav> :first-child,
+main> :first-child,
+body>footer> :first-child {
+    margin-block-start: 0;
 }
 
-body > header > :last-child,
-body > nav > :last-child,
-main > :last-child,
-body > footer > :last-child {
-  margin-block-end: 0;
+body>header> :last-child,
+body>nav> :last-child,
+main> :last-child,
+body>footer> :last-child {
+    margin-block-end: 0;
 }
 
 figure {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-body > [type="checkbox"] {
-  display: none;
+body>[type="checkbox"] {
+    display: none;
 }
 
-nav > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
